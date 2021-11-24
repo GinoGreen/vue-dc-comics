@@ -1,6 +1,6 @@
 <template>
    <main>
-      
+
    </main>
 </template>
 
@@ -11,5 +11,11 @@ export default {
 </script>
 
 <style lang="scss">
+   @import '../assets/style/mixins.scss';
+   @import '../assets/style/vars.scss';
 
+   main {
+      padding: 90px 0;
+      background-color: #1C1C1C;
+   }
 </style>
