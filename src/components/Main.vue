@@ -1,7 +1,9 @@
 <template>
    <main>
 
-      <section id="jumbotrone"></section>
+      <section id="jumbotrone">
+
+      </section>
 
       <section id="thumbs" class="container">
          <TemplateCard
@@ -39,10 +41,19 @@ export default {
    @import '../assets/style/vars.scss';
 
    main {
-      padding: 20px 0;
+      padding-bottom: 20px;
       background-color: #1C1C1C;
       @include center();
       flex-direction: column;
+      
+      #jumbotrone {
+         width: 100%;
+         height: 530px;
+         background-image: url('../assets/img/jumbotron.jpg');
+         background-size: cover;
+         background-position: top;
+         background-repeat: no-repeat;
+      }
 
       #thumbs {
          display: flex;

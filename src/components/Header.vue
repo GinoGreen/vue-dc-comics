@@ -5,7 +5,11 @@
       </div>
       <ul>
          <li v-for="(section, index) in navBar" :key="index">
-            <a :class="{active : (index === activeSection)}" href="#">{{ section }}</a>
+            <a 
+               :class="{active : (index === activeSection)}" 
+               href="#"
+               @click="activeSection = index"
+            >{{ section }}</a>
          </li>
       </ul>
    </header>
