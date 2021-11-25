@@ -1,7 +1,7 @@
 <template>
    <div class="myCard">
       <img :src="card.thumb" :alt="card.series">
-      <!-- <h5>{{ card.series }}</h5> -->
+      <h5>{{ card.series }}</h5>
    </div>
 </template>
 
@@ -26,7 +26,7 @@ export default {
 
       img {
          width: 100%;
-         // height: calc(50%);
+         height: 176px;
 
          display: block;
 
