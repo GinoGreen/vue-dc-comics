@@ -1,6 +1,8 @@
 <template>
    <div class="myCard">
-      <img :src="card.thumb" :alt="card.series">
+      <div class="img-square-container">
+         <img :src="card.thumb" :alt="card.series">
+      </div>
       <h5>{{ card.series }}</h5>
    </div>
 </template>
@@ -13,6 +15,8 @@ export default {
    }
 }
 </script>
+// via giulio petroni 33b
+// via troscana 32
 
 <style lang="scss">
    @import '../assets/style/mixins.scss';
@@ -24,14 +28,25 @@ export default {
 
       cursor: pointer;
 
-      img {
+      .img-square-container {
+         // fix immagine sempre quadrata
          width: 100%;
-         height: 176px;
+         padding-top: 100%;
 
-         display: block;
+         position: relative;
 
-         object-fit: cover;
-         object-position: top;
+         overflow: hidden;
+
+         img {
+            width: 100%;
+
+            display: block;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+         }
       }
 
       h5 {
