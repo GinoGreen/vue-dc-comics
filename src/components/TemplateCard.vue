@@ -20,7 +20,7 @@ export default {
 
    .myCard {
       width: calc(100% / 6 - 40px);
-      margin: 20px;
+      margin: 25px 20px;
 
       cursor: pointer;
 

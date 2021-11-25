@@ -1,9 +1,11 @@
 <template>
    <main>
 
-      <section id="jumbotrone">
+      <section id="jumbotrone"></section>
 
-      </section>
+      <div class="container">
+         <h2>current series</h2>
+      </div>
 
       <section id="thumbs" class="container">
          <TemplateCard
@@ -53,6 +55,18 @@ export default {
          background-size: cover;
          background-position: top;
          background-repeat: no-repeat;
+      }
+
+      h2 {
+         padding: 15px 50px;
+
+         display: inline-block;
+
+         color: #fff;
+         text-transform: uppercase;
+
+         transform: translateY(-50%);
+         background-color: $brand_color;
       }
 
       #thumbs {
