@@ -5,6 +5,7 @@
       </div>
       <ul>
          <li v-for="(section, index) in navBar" :key="index">
+            <!-- cambio classe active al click -->
             <a 
                :class="{active : (index === activeSection)}" 
                href="#"
