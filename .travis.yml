@@ -9,6 +9,6 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   local_dir: dist
   on:
-    branch: main
+    branch: master
 dd:
   secure: TzqB07ivSJNtJ2twO4na/5JP5yZHq3mjObYhWg/sTWLVmmqL8YPEkDuRBCiVCF6kVOHaGnZ+J7X28uAUsvTEOAsQKsAp12vcDkX0Pki+XAckS5SSeCKWZB7CzccCdyVy72yTmH+VcH/IYxldPF83Oh4SI4iYNm3FDwdHeiHZtfxgrX+bl+6sEj3sfwEgr8WP6rSZhKVWrjYh9fDsBE/rUiHttIve96+jUhGgtHwhzbOtA0iAQBl2N5wflbfJuLbNekJsuyuUKD9ynh/bf+cl1/cojdf36r2+Khod9QXrnIYabCcwKk9nahNny042WVCA6A0sdV4a/5dhlgJQg2JqsI3hBM9uPRFZN4dhoXLscaY8UOZYLWJxvAS2lo24PPuYwkhBilKgA0v/6bRaAA3I5rqrwcwJkIgmKT8M7eti07qjUq6zoYh3n8fmLRUErhXfNjqBTJRS5oJbB5dHZpTQiR5edwSQLCYB/pXHC6hzkUqatgpA+o4Z4jsgUDcU6sZ8ksYFo6odXZ+NTGWpJbqcw6Q5hsDfzeBYm0rTRFpZ4cYEd72Us0+kURyXCO7yCsZu9fueUZuYRArS5/fiAB0/XuRA/v0Kp+BjLjd8BCi7ufZ5U3rwU26vj48QQOlqyIsk2cAfSRbsfut/dZF7wMMpbR8a78ivD6PKwfFbkB7mCYM=
